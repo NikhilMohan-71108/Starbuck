@@ -1,0 +1,517 @@
+
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+   
+   }
+
+   html, body {
+    height: 100%;
+    font-family: SoDoSans_Light, Helvetica, sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+   
+#mainheding{
+  position: fixed;  
+}
+  #header{
+    display: flex;
+    
+  } 
+
+  #logoandothers{
+    display: flex;
+    position: sticky;
+  }
+  #logoandothers img{
+    height: 2.8vw;
+    margin-top: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+    
+  }
+  #logoandothers h3{
+    margin-top: 45px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 1.1vw;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  h3:hover{
+    color: green;
+  }
+   a{
+    color: green;
+  }
+
+  #Searchbar input{
+    margin-top: 35px;
+    margin-left: 550px;
+    border-radius: 50px;
+    height: 28px;
+    width: 235px;
+  }
+
+  #login{
+    margin-top: 35px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+/* ========================================================== */
+.details{
+    height: 60px;
+    width: 92%;
+    color: white;
+    background-color: #1E3932;
+    padding: 1vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.details h3{
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+   
+  
+    
+}
+
+.details button{
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5vw 1.4vw;
+    cursor: pointer;
+   
+}
+/* ============================== */
+
+.content{
+    margin-top: 30px;
+    width: 85%;
+    height: 240px;
+    background-color:  rgb(12, 108, 12);
+    margin-left: 130px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+}
+.image-content{
+  width: 100%;
+  height: 240px;
+  padding: 0px;
+  cursor: pointer;
+}
+.image-content img{
+height: 190px;
+margin-top: 10px;
+width: 100px;
+margin-top: 60px;
+
+}
+
+.paragraphcontent{
+ margin-top: -251px;
+ cursor: pointer;
+}
+.paragraphcontent p{
+  padding: 0px;
+  margin-left: 187px;
+  margin-bottom: 26px;
+  color: #fff;
+  
+ }
+
+#Brewing{
+  font-weight: 400;
+  font-size: 14px;
+   
+}
+
+#Menu{
+  font-weight: 600;
+  font-size: 20px;
+  
+}
+
+#Special{
+  font-weight: 400;
+  font-size: 14px
+  
+}
+
+#Price{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#Amount{
+  font-weight: 600;
+}
+.btnorder {
+  width: 100%;
+  height: 240px;
+  margin-top: -237px;
+  
+}
+.btnorder button {
+  width: 200px;
+  color: #fff;
+  background-color: #00754a;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 79px;
+  height: 50px;
+  margin-top: 154px;
+  margin-left: 1000px;
+  border: none;
+}
+/* ======================================= */
+
+.Section{
+    width: 85%;
+    padding: 1vw 8vw;
+    gap: 5px;
+    
+}
+
+.Section_1{
+   
+    width: 100%;
+}
+.Section_1 h1{
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: #1e3932;
+    margin-left: 20px;
+    
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 0vw;
+    margin-top: -170px;
+    
+}
+.img1 img{
+    height: 7vw;
+    border-radius: 50%;
+    margin-top: 150px;
+    cursor: pointer;
+    
+    
+
+}
+.img1 h5{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+images:hover{
+  box-shadow: inset 30vw 30vw 30vw 100vw rgba(0, 0, 0, 0.86);
+}
+/* ====================================== */
+.recommends{
+    background-color:lightgray;
+    width:100%;
+    height:400px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+.recommendsHeading{
+    display: flex;
+    width:100%;
+    height:400px;
+    justify-content: space-between;
+    
+}
+.recommendsitems{
+    border-radius: 8px;
+    width:100%;
+    height:400px;
+    border-bottom: 130px;
+    height: 244px;
+    margin-top: -313px;
+    display: flex;
+    cursor: pointer;
+}
+.recommends img{
+    width: 80px;
+    height: 80px;
+}
+
+.BaristaItems1{
+    
+    width:500px;
+    height:200px;
+    border-width: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #c2bdbdc1;
+    border-radius: 8px;
+    margin: 30px;
+   
+}
+.BaristaItems2{
+    
+    width:500px;
+    height:200px;
+    border-width: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #c2bdbdc1;
+    border-radius: 8px;
+    margin: 30px;
+   
+}
+
+.BaristaItems3{
+    
+    width:500px;
+    height:200px;
+    border-width: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 10px #c2bdbdc1;
+    border-radius: 8px;
+    margin: 30px;
+   
+}
+
+.recommendsitems img{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin: 35px;
+}
+
+.recommendsitems h3{
+    color: #000;
+    font-size: 14px;
+    margin-top: -86px;
+    margin-left: 135px;
+}
+
+.recommendsitems h5{
+    color: #000;
+    margin-top: -6px;
+    margin-left: 135px;
+    font-size: 10px;
+    color: #00000061;
+}
+
+.recommendsitems h4{
+    color: #000;
+    margin-top: -10x;
+    margin-left: 55px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    
+}
+
+.recommendsitems button{
+    width: 96px;
+    height: 32px;
+    color: #fff;
+    background-color:#00754a;
+    border-radius: 40px;
+    margin-right: 30px;
+    margin-left: 300px;
+    border: none;
+}
+
+.recommendsitems button:hover{
+    background-color: #1e3932;
+}
+
+.recommendsHeading span{
+    color: #1e3932;
+    font-size: 1.5em;
+    font-size: 30px;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif;
+    padding:33px
+}
+
+.recommendsHeading h6{
+    color: #00754a;
+    font-size: .8rem;
+    cursor: pointer;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    padding: 21px;
+    margin-right: -900px;
+}
+ 
+
+
+
+
+/* =============================================== */
+.CoffeDetails{
+  background-color: lightgray;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  border-bottom: 35px;
+
+  
+}
+
+.coffeheadingdetils{
+    display: flex;
+    justify-content: space-between;
+}
+.coffeheadingdetils h6{
+    color: #00754a;
+    font-size: .8rem;
+    cursor: pointer;
+    margin-right: 100px;
+}
+.CoffeDetails h1{
+color:#1E3932;;
+padding: 10px;
+
+}
+#details_id{
+  margin: 10px;
+}
+.AboutCoffe{
+  width: 92%;
+  height: 300px;
+  background-color: #00754a;
+  margin:70px;
+  border-radius: 50px;
+}
+.coffeeheading{
+  width: 100%;
+  height: 330px;
+  margin-bottom: 180px;
+  border-radius: 10px;
+  background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Coffeculture_Blog_Web_Banner_2_X_8b72db6546.jpg");
+  cursor: pointer;
+}
+coffeeheading:hover{
+box-shadow: #00754a;
+}
+#CoffeImage{
+  width: 100%;
+  height: 200px;
+  padding: 70px;
+  
+}
+#CoffeImage h1{
+font-size: 28px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: .5em !important;
+    cursor: pointer;
+}
+#CoffeImage p{
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+#CoffeImage button{
+  margin-top:60px;
+  border-radius: 30px;
+  width: 160px;
+  height:50px;
+  border: none;
+  cursor: pointer;
+}
+#CoffeImage button:hover{
+    background-color: gainsboro;
+}
+
+#CoffeImage input{
+   margin-bottom: 500px;
+}
+
+/* ========================================= */
+.footer{
+  background-color: #1E3932;
+  width: 100%;
+  height: 750px;
+  padding: 65px;
+  display: flex;
+  margin-bottom: 700px;
+  margin-top: 0px;
+  justify-content:space-around;
+  margin-left: 0px;
+
+}
+
+.footer_links{
+  margin-right: 90px;
+  width:180px
+}
+
+#footer_logo img{
+  
+    height: 2.8vw;
+    margin-top: 78px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+.footer_links1{
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.footer_links h2 {
+ color:white;
+ cursor: pointer;
+}
+.footer_links h6 {
+  color:white;
+  line-height: 15px;
+  cursor: pointer;
+ }
+ .footer_links h6:hover{
+  color: gray;
+ }
+
+ .footerlinklast{
+  
+    width: 100%;
+    height: 30px;
+    padding: 65px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 680px;
+    margin-left: -1595px;
+    border-top: 1px solid white;
+    gap: 15px;
+    
+}
+ #rights{
+  margin-left: 450px;
+ }
+
+ .footerlinklast h6{
+      color: #fff;
+ }
+
+ .footerlinklast h6:hover{
+  color: gray;
+  transition: .3s;
+}
+/* =================================================== */
+
+
+
